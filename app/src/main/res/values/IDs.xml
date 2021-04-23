@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="index_home" type="id" />
+    <item name="index_buy" type="id" />
+    <item name="index_follow" type="id" />
+    <item name="index_shop" type="id" />
+    <item name="index_info" type="id" />
+
+    <item name="index_buy_1" type="id" />
+    <item name="index_buy_2" type="id" />
+    <item name="index_buy_1_text" type="id" />
+    <item name="index_buy_2_text" type="id" />
+    <item name="index_buy1_1" type="id" />
+    <item name="index_buy1_2" type="id" />
+    <item name="index_buy1_3" type="id" />
+    <item name="index_buy1_4" type="id" />
+    <item name="index_buy1_5" type="id" />
+    <item name="index_buy1_6" type="id" />
+    <item name="index_buy1_1_text" type="id" />
+    <item name="index_buy1_2_text" type="id" />
+    <item name="index_buy1_3_text" type="id" />
+    <item name="index_buy1_4_text" type="id" />
+    <item name="index_buy1_5_text" type="id" />
+    <item name="index_buy1_6_text" type="id" />
+    <item name="index_buy1_1_line" type="id" />
+    <item name="index_buy1_2_line" type="id" />
+    <item name="index_buy1_3_line" type="id" />
+    <item name="index_buy1_4_line" type="id" />
+    <item name="index_buy1_5_line" type="id" />
+    <item name="index_buy1_6_line" type="id" />
+    <item name="index_buy2_1" type="id" />
+    <item name="index_buy2_2" type="id" />
+    <item name="index_buy2_3" type="id" />
+    <item name="index_buy2_4" type="id" />
+    <item name="index_buy2_5" type="id" />
+    <item name="index_buy2_6" type="id" />
+    <item name="index_buy2_7" type="id" />
+    <item name="index_buy2_8" type="id" />
+    <item name="index_buy2_9" type="id" />
+    <item name="index_buy2_10" type="id" />
+
+
+    <item name="index_item_1" type="id" />
+    <item name="index_item_2" type="id" />
+    <item name="index_item_1_text" type="id" />
+    <item name="index_item_2_text" type="id" />
+    <item name="index_item1_1" type="id" />
+    <item name="index_item1_2" type="id" />
+    <item name="index_item1_3" type="id" />
+    <item name="index_item1_4" type="id" />
+    <item name="index_item1_5" type="id" />
+    <item name="index_item1_6" type="id" />
+    <item name="index_item1_1_text" type="id" />
+    <item name="index_item1_2_text" type="id" />
+    <item name="index_item1_3_text" type="id" />
+    <item name="index_item1_4_text" type="id" />
+    <item name="index_item1_5_text" type="id" />
+    <item name="index_item1_6_text" type="id" />
+    <item name="index_item1_1_line" type="id" />
+    <item name="index_item1_2_line" type="id" />
+    <item name="index_item1_3_line" type="id" />
+    <item name="index_item1_4_line" type="id" />
+    <item name="index_item1_5_line" type="id" />
+    <item name="index_item1_6_line" type="id" />
+    <item name="index_item2_1" type="id" />
+    <item name="index_item2_2" type="id" />
+    <item name="index_item2_3" type="id" />
+    <item name="index_item2_4" type="id" />
+    <item name="index_item2_5" type="id" />
+    <item name="index_item2_6" type="id" />
+    <item name="index_item2_7" type="id" />
+    <item name="index_item2_8" type="id" />
+    <item name="index_item2_9" type="id" />
+    <item name="index_item2_10" type="id" />
+
+
+    <item name="index_follow_item" type="id" />
+    <item name="index_follow_buy" type="id" />
+    <item name="index_follow_shop" type="id" />
+    <item name="index_follow_item_text" type="id" />
+    <item name="index_follow_buy_text" type="id" />
+    <item name="index_follow_shop_text" type="id" />
+    <item name="index_follow_item_line" type="id" />
+    <item name="index_follow_buy_line" type="id" />
+    <item name="index_follow_shop_line" type="id" />
+
+    <item name="btn_shop_last" type="id" />
+    <item name="btn_shop_setting" type="id" />
+    <item name="btn_shop_news" type="id" />
+
+
+    <item name="btn_info_details" type="id" />
+    <item name="btn_info_passwords" type="id" />
+    <item name="btn_info_follow" type="id" />
+    <item name="btn_info_news" type="id" />
+    <item name="btn_info_advice" type="id" />
+    <item name="btn_info_help" type="id" />
+    <item name="btn_info_about" type="id" />
+    <item name="btn_info_log" type="id" />
+
+
+    <item name="edit_info_user_1" type="id" />
+    <item name="edit_info_user_2" type="id" />
+    <item name="edit_info_user_3" type="id" />
+    <item name="btn_info_user_1" type="id" />
+    <item name="btn_info_user_2" type="id" />
+    <item name="btn_info_user_3" type="id" />
+
+    <item name="edit_info_details_1" type="id" />
+    <item name="edit_info_details_2" type="id" />
+    <item name="edit_info_details_3" type="id" />
+    <item name="btn_info_details_1" type="id" />
+    <item name="btn_info_details_2" type="id" />
+    <item name="btn_info_details_3" type="id" />
+
+    <item name="edit_shop_setting_1" type="id" />
+    <item name="edit_shop_setting_2" type="id" />
+    <item name="edit_shop_setting_3" type="id" />
+    <item name="edit_shop_setting_4" type="id" />
+    <item name="btn_shop_setting_1" type="id" />
+    <item name="btn_shop_setting_2" type="id" />
+
+
+    <item name="edit_shop_self_1" type="id" />
+    <item name="edit_shop_self_2" type="id" />
+    <item name="edit_shop_self_3" type="id" />
+    <item name="edit_shop_self_4" type="id" />
+    <item name="edit_shop_self_5" type="id" />
+    <item name="edit_shop_self_6" type="id" />
+    <item name="btn_shop_self_1" type="id" />
+    <item name="btn_shop_self_2" type="id" />
+    <item name="btn_shop_self_3" type="id" />
+    <item name="btn_shop_self_4" type="id" />
+    <item name="btn_shop_self_5" type="id" />
+
+
+    <item name="edit_buy_item_1" type="id" />
+    <item name="edit_buy_item_2" type="id" />
+    <item name="edit_buy_item_3" type="id" />
+    <item name="edit_buy_item_4" type="id" />
+    <item name="edit_buy_item_5" type="id" />
+    <item name="edit_buy_item_6" type="id" />
+    <item name="edit_buy_item_7" type="id" />
+    <item name="edit_buy_item_8" type="id" />
+    <item name="btn_buy_item_1" type="id" />
+    <item name="btn_buy_item_2" type="id" />
+    <item name="btn_buy_item_3" type="id" />
+    <item name="btn_buy_item_4" type="id" />
+
+    <item name="line_temp" type="id"/>
+
+    <item name="info_chat_bottom_edit" type="id"/>
+</resources>

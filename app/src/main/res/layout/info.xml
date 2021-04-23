@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--- 顶部 -->
+            <FrameLayout
+                android:id="@+id/info_layout_top"
+                android:layout_width="fill_parent"
+                android:layout_height="242px">
+            </FrameLayout>
+
+            <!--- 选项 -->
+            <View
+                android:id="@+id/info_layout_line1"
+                android:layout_width="fill_parent"
+                android:background="@color/nintygray"
+                android:layout_height="1px"
+                android:layout_marginTop="69px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_below="@id/info_layout_top"></View>
+            <LinearLayout
+                android:id="@+id/info_layout_content"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/info_layout_line1"
+                android:orientation="vertical">
+            </LinearLayout>
+            <View
+                android:id="@+id/info_layout_line2"
+                android:layout_width="fill_parent"
+                android:background="@color/nintygray"
+                android:layout_height="1px"
+                android:layout_marginTop="135px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_below="@id/info_layout_content"></View>
+            <LinearLayout
+                android:id="@+id/info_layout_others"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/info_layout_line2"
+                android:orientation="vertical">
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

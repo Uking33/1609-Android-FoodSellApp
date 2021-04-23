@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/follow_title"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:text="关注"
+        android:gravity="center"
+        android:background="@color/textblue"
+        android:textColor="@color/white"
+        android:textSize="36px"
+        />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="78px"
+        android:layout_alignParentBottom="true">
+        <View
+            android:background="@color/white"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"/>
+        <LinearLayout
+            android:id="@+id/follow_layout_index"
+            android:orientation="horizontal"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/follow_layout_items"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

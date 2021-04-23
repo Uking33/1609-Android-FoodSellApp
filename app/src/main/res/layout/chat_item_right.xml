@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/chat_sendtime"
+            android:layout_width="110dp"
+            android:layout_height="18dp"
+            android:padding="2dp"
+            android:background="@color/seventygray"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:alpha="0.3"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/chat_userhead"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:focusable="false"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/chat_userhead">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@drawable/default_logo"
+                android:visibility="gone"
+                android:id="@+id/chat_chatimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="end|top"
+                android:gravity="end|top"/>
+
+            <TextView
+                android:id="@+id/chat_chattext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatto_bg"
+
+                android:textSize="15sp"
+                android:textColor="@color/white"
+
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="2dp"
+                android:gravity="end|center"
+
+                android:clickable="true"
+                android:focusable="true"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

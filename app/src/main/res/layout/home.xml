@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/home_layout_find"
+        android:orientation="horizontal"
+        android:layout_height="100px"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <View
+            android:background="@color/textblue"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"/>
+        <FrameLayout
+            android:id="@+id/home_index_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30px">
+            <TextView
+                android:id="@+id/home_index_ad_text"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30px"
+                android:text="地址" >
+            </TextView>
+            <ImageView
+                android:layout_width="29px"
+                android:layout_height="17px"
+                android:layout_marginLeft="75px"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_drop1_down_white">
+            </ImageView>
+        </FrameLayout>
+        <EditText android:id="@+id/home_edit_find"
+            android:background="@drawable/bg_edittext"
+            android:imeOptions="actionSearch"
+            android:layout_width="440px"
+            android:layout_height="64px"
+            android:layout_marginLeft="162px"
+            android:layout_gravity="center_vertical"
+            android:textCursorDrawable="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:hint="搜索商家、冻品或店面"
+            android:textColorHint="@color/eghitygray"
+            android:paddingLeft="98px"
+            android:paddingRight="60px"
+            android:maxLines="1"
+            android:textColor="@color/twentygray"
+            android:textSize="28px"
+            android:text="" >
+        </EditText>
+        <ImageView
+            android:layout_width="29px"
+            android:layout_height="29px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_index_find"
+            android:layout_marginLeft="225px"/>
+        <FrameLayout
+            android:id="@+id/home_news"
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|end">
+
+            <ImageView
+                android:layout_width="45px"
+                android:layout_height="48px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/icon_news"/>
+            <ImageView
+                android:id="@+id/home_news_point"
+                android:visibility="gone"
+                android:layout_width="13px"
+                android:layout_height="13px"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="31px"
+                android:layout_marginTop="27px"
+                android:src="@drawable/icon_redpoint"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--- 滚动图片 -->
+            <RelativeLayout
+                android:id="@+id/home_layout_pic"
+                android:layout_height="225px"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <!--切换卡-->
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pic_viewPager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="225px"
+                    android:layout_gravity="center"/>
+                <!--点点-->
+                <LinearLayout
+                    android:id="@+id/pic_viewGroup"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"/>
+            </RelativeLayout>
+
+            <!--- 分类 -->
+            <FrameLayout
+                android:id="@+id/home_layout_class"
+                android:layout_height="175px"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_below="@id/home_layout_pic">
+                <LinearLayout
+                    android:id="@+id/home_layout_class_item"
+                    android:orientation="horizontal"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal">
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/nintygray"
+                    android:layout_gravity="bottom"/>
+            </FrameLayout>
+
+            <!--- 热卖 -->
+            <FrameLayout
+                android:id="@+id/home_layout_hot"
+                android:layout_height="315px"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_below="@id/home_layout_class">
+            </FrameLayout>
+            <!--- 推销 -->
+            <FrameLayout
+                android:id="@+id/home_layout_ad"
+                android:layout_height="315px"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_below="@id/home_layout_hot">
+            </FrameLayout>
+
+            <LinearLayout android:id="@+id/mylayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/home_layout_ad">
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
